@@ -7,9 +7,9 @@ def main():
     increase = 0
     try:
         while True:
-            a = int(data[3*x])+int(data[3*x+1])+int(data[3*x+2])
+            a = int(data[x])+int(data[x+1])+int(data[x+2])
             x+=1
-            b = int(data[3*x])+int(data[3*x+1])+int(data[3*x+2])
+            b = int(data[x])+int(data[x+1])+int(data[x+2])
             if a<b:
                 increase+=1
     except IndexError:
